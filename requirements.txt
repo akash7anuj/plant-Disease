@@ -2,5 +2,4 @@ streamlit
 opencv-python
 tensorflow
 ultralytics>=8.1.0
-tempfile
 PIL
