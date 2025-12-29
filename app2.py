@@ -69,7 +69,7 @@ def cnn_predict(image):
 
 # ================= STREAMLIT UI =================
 st.set_page_config("Plant Leaf Detection", "🌿")
-st.title("🌿 Leaf Detection & Plant Disease Prediction")
+st.title("🌿 Plant Disease Prediction")
 
 mode = st.selectbox(
     "Select Input Type",
@@ -173,4 +173,5 @@ elif mode == "Camera":
         stframe.image(frame, channels="BGR", width=700)
 
     cap.release()
+
 
